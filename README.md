@@ -1,24 +1,16 @@
-# README
+# Rails API Skeleton
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API skeleton that I use in projects
 
-Things you may want to cover:
+Includes:
 
-* Ruby version
+- [x] JWT Authentication with devise and devise-jwt
+- [x] CORS handling
+- [x] Postgres support
+- [x] Read environment using `figaro` gem
+- [x] Role management & Authorization
+- [x] Rubocop style enforcement
+- [x] Model annotation using `Annotate`
+- [x] Debugging support
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Postman collection for this skeleton: ---
