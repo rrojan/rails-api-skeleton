@@ -49,6 +49,8 @@ group :development do
 
   # Annotate models
   gem 'annotate'
+  # Load configs
+  gem 'figaro', '~> 1.2.0'
   # Rubocop styling
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
