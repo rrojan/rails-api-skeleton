@@ -25,4 +25,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :jwt_authenticatable,
          jwt_revocation_strategy: JwtDenylist # Revocate JWT on basis of JWT DenyList
+
+  # User Roles
+  enum role: %i[user moderator admin]
+  after_initialize -> { self.role ||= :user }, if: :new_record?
 end
